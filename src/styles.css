@@ -1,0 +1,78 @@
+/* Basic styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Dark mode classes */
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.light-mode {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Button styles */
+.dark-button {
+  background-color: #555;
+  color: #fff;
+  border: 1px solid #777;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dark-button:hover {
+  background-color: #666;
+}
+
+.light-button {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.light-button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Input styles */
+.dark-input:focus {
+  outline: none;
+  border-color: #5c9eff;
+  box-shadow: 0 0 5px rgba(92, 158, 255, 0.5);
+}
+
+.light-input:focus {
+  outline: none;
+  border-color: #2b7de9;
+  box-shadow: 0 0 5px rgba(43, 125, 233, 0.5);
+}
+
+/* Meme item hover effects */
+.meme-item {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.light-meme:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.dark-meme:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
